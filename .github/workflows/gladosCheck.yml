@@ -43,7 +43,7 @@ jobs:
         pip install requests
         pip install pypushdeer
 
-    # 执行 签到脚本
+    # 执行 签到脚本 执行
     - name: Running checkin
       run: |
         python checkin.py
